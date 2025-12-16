@@ -539,6 +539,10 @@ input[type="file"] {
     .social-footer{
          opacity: 0;
     }
+    .zoom-controls{
+        opacity: 0;
+
+    }
 }
 
 @media (max-width: 768px) {
