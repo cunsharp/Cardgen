@@ -710,7 +710,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Setup navigation bar event listeners
     function setupNavListeners() {
         // View mode switching
-        if (viewBothBtn) viewBothBtn.addEventListener('click', () => setViewMode('both'));
+        if (viewFrontBtn) viewFrontBtn.addEventListener('click', () => setViewMode('both'));
         if (viewFrontBtn) viewFrontBtn.addEventListener('click', () => setViewMode('front'));
         if (viewBackBtn) viewBackBtn.addEventListener('click', () => setViewMode('back'));
 
