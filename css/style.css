@@ -543,6 +543,7 @@ input[type="file"] {
         opacity: 0;
 
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -555,8 +556,6 @@ input[type="file"] {
     }
 
     .vertical-card {
-        width: 100%;
-        max-width: 400px;
     }
 
     .social-links {
@@ -570,6 +569,9 @@ input[type="file"] {
 
     .social-divider {
         display: none;
+    }
+    .top-nav{
+        display: none !important;
     }
 }
 
@@ -846,6 +848,7 @@ input[type="file"] {
         flex-wrap: wrap;
         gap: 15px;
         padding: 15px;
+        display: none;
     }
 
     .nav-center {
