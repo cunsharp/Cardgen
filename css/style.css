@@ -572,7 +572,11 @@ input[type="file"] {
 
     .sidebar {
         position: static;
+        opacity: 0;
     }
+}
+.top-nav{
+    opacity: 0;
 }
 
 @media (max-width: 768px) {
